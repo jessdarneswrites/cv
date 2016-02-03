@@ -18,10 +18,13 @@ body {
 	background-color: #eeeeee;
 }
 
-.wrapper {
+.container {
 	margin: 75px;
 	padding: 40px;
 	background-color: #ffffff;
+}
+
+.main {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -33,7 +36,7 @@ body {
 .graphics {
 	border: 2px solid #662486;
 	margin-bottom: 4%;
-	padding: 15px 0 15px 0;
+	padding: 15px 20px 15px 20px;
 	width: 48%; 
 }
 
@@ -44,7 +47,7 @@ body {
 .writing {
 	border: 2px solid #ef558e;
 	margin-bottom: 4%;
-	padding: 15px 0 15px 0;
+	padding: 15px 20px 15px 20px;
 	width: 48%; 
 }
 
@@ -55,7 +58,7 @@ body {
 .freelance {
 	border: 2px solid #00CC99;
 	margin-bottom: 4%;
-	padding: 15px 0 15px 0;
+	padding: 15px 20px 15px 20px;
 	width: 48%; 
 }
 
@@ -66,7 +69,7 @@ body {
 .marketing {
 	border: 2px solid #ffab42;
 	margin-bottom: 4%;
-	padding: 15px 0 15px 0;
+	padding: 15px 20px 15px 20px;
 	width: 48%; 
 }
 
@@ -131,6 +134,14 @@ p {
 a {
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
+}
+
+.sidebar {
+	
+}
+
+.footer {
+
 }
 
 
