@@ -1,0 +1,50 @@
+/*
+Stylesheet for Hello
+*/
+
+.div graphics {
+	border: 2px;
+	border-color: #662486;
+}
+
+.h2 title {
+	font: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #662486;
+}
+
+.h3 title {
+	font: 'Libre Baskerville', serif;
+	font-size: 18px;
+	color: #3c3c3b;
+}
+
+h2 {
+	font: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #662486;
+}
+
+h3 {
+	font: 'Libre Baskerville', serif;
+	font-size: 15px;
+	color: #9d9d9c;
+}
+
+h4 {
+	font: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p {
+	font: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #3c3c3b;
+}
+
+.quote {
+	font: 'Libre Baskerville', serif;
+	font-size: 21px;
+	color: #662486;
+}
