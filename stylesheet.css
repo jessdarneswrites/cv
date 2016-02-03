@@ -1,16 +1,83 @@
 /*
 Stylesheet for Hello
+
+colour refs:
+#662486 - purple
+#ef558e - pink
+#00CC99 - teal
+#ffab42 - orange
 */
 
+* {
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+
+body {
+	background-color: #eeeeee;
+}
+
+.wrapper {
+	margin: 75px;
+	padding: 40px;
+	background-color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header {
+	margin: -10px 5px 35px 5px;
+}
+
 .graphics {
-	border: 2px;
-	border-color: #662486;
+	border: 2px solid #662486;
+	margin-bottom: 4%;
+	padding: 15px 0 15px 0;
+	width: 48%; 
+}
+
+.graphics h2, .graphics a {
+	color: #662486;
+}
+
+.writing {
+	border: 2px solid #ef558e;
+	margin-bottom: 4%;
+	padding: 15px 0 15px 0;
+	width: 48%; 
+}
+
+.writing h2, .writing a {
+	color: #ef558e;
+}
+
+.freelance {
+	border: 2px solid #00CC99;
+	margin-bottom: 4%;
+	padding: 15px 0 15px 0;
+	width: 48%; 
+}
+
+.freelance h2, .freelance a {
+	color: #00CC99;
+}
+
+.marketing {
+	border: 2px solid #ffab42;
+	margin-bottom: 4%;
+	padding: 15px 0 15px 0;
+	width: 48%; 
+}
+
+.marketing h2, .marketing a {
+	color: #ffab42;
 }
 
 .h1title {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
 	letter-spacing: 3px;
 	color: #662486;
 }
@@ -18,7 +85,7 @@ Stylesheet for Hello
 .h2title {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 32px;
 	text-transform: uppercase; 
 	color: #662486;
 }
@@ -59,4 +126,18 @@ p {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 21px;
 	color: #662486;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+
+/* Media queries */
+
+@media (max-width: 700px) {
+	.graphics, .freelance, .writing, .marketing {
+		width: 100%;
+	}
 }
