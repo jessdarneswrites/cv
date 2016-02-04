@@ -204,7 +204,7 @@ li {
 
 .footer li {
 	list-style: none;
-	text-align: center;
+	align: center;
 	display: inline-block;
 	margin: 0 auto;
 }
