@@ -6,6 +6,7 @@ colour refs:
 #ef558e - pink
 #00CC99 - teal
 #ffab42 - orange
+#1E6ACC - blue
 */
 
 * {
@@ -20,32 +21,47 @@ body {
 
 .container {
 	margin: 75px;
-	padding: 40px;
 	background-color: #ffffff;
+	box-shadow: 0 1px 1px #BFBFBF;
 }
 
 .main {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 40px;
 }
 
 .header {
-	margin: -10px 5px 35px 5px;
+	padding: 35px 45px 35px 45px;
 }
 
-.graphics {
-	border: 2px solid #662486;
+.header h1, .header h2, .header h3, .header p {
+	margin-top: 0;
+}
+
+.intro {
+	padding: 35px 45px 35px 45px;
+}
+
+.design {
 	margin-bottom: 4%;
 	padding: 15px 20px 15px 20px;
 	width: 48%; 
 }
 
-.graphics h2, .graphics a {
-	color: #662486;
+.design h2, .design a {
+	color: #1E6ACC;
+}
+
+.design h3 {
+
+}
+
+.design a {
+	text-decoration: underline;
 }
 
 .writing {
-	border: 2px solid #ef558e;
 	margin-bottom: 4%;
 	padding: 15px 20px 15px 20px;
 	width: 48%; 
@@ -55,8 +71,11 @@ body {
 	color: #ef558e;
 }
 
+.writing a {
+	text-decoration: underline;
+}
+
 .freelance {
-	border: 2px solid #00CC99;
 	margin-bottom: 4%;
 	padding: 15px 20px 15px 20px;
 	width: 48%; 
@@ -66,8 +85,11 @@ body {
 	color: #00CC99;
 }
 
+.freelance a {
+	text-decoration: underline;
+}
+
 .marketing {
-	border: 2px solid #ffab42;
 	margin-bottom: 4%;
 	padding: 15px 20px 15px 20px;
 	width: 48%; 
@@ -75,6 +97,10 @@ body {
 
 .marketing h2, .marketing a {
 	color: #ffab42;
+}
+
+.marketing a {
+	text-decoration: underline;
 }
 
 .h1title {
@@ -86,17 +112,19 @@ body {
 }
 
 .h2title {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 32px;
-	text-transform: uppercase; 
-	color: #662486;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 28px;
+	color: #3c3c3b;
+	text-transform: none;
 }
 
 .h3title {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 15px;
-	color: #3c3c3b;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-transform: uppercase; 
+	color: #662486;
 }
 
 h2 {
@@ -115,13 +143,14 @@ h3 {
 
 h4 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 700;
+	color: #404040;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 	color: #3c3c3b;
 }
 
@@ -131,17 +160,52 @@ p {
 	color: #662486;
 }
 
+
 a {
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	color: #662486;
+	font-weight: bold;
+}
+
+ul {
+
+}
+
+li {
+	color: #662486;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.nav-li {
+	list-style: none;
+}
+
+.nav-li a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #662486;
 }
 
 .sidebar {
-	
+
 }
 
 .footer {
+	padding-bottom: 70px;
+}
 
+.footer li {
+	list-style: none;;
+}
+
+.footer a {
+	text-decoration: none;
 }
 
 
