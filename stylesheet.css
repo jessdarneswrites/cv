@@ -31,34 +31,37 @@ body {
 }
 
 .main {
-	flex-wrap: nowrap;
-	padding: 20px 40px 20px 40px;
+	padding: 0 60px 30px 60px;
+	margin-bottom: 30px
 }
 
 .content {
 	width: 64%;
-	padding: 10px 20px 10px 20px;
+	padding: 0;
 }
 
 .header {
-	padding: 35px 45px 35px 45px;
+	display: flex;
+	align-items: flex-start;
+	padding: 50px 60px 50px 60px;
 }
 
 .header h1 {
-	margin-top: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-.header h2, .header h3, .header p {
+.header h2, .header h3 .header p {
 	margin-top: 0;
 }
 
 .intro {
-	padding: 35px 45px 35px 45px;
+	padding: 0 60px 30px 60px;
 }
 
 .design {
 	margin-bottom: 4%;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 20px 10px 20px;
 	width: 48%; 
 }
 
@@ -72,7 +75,7 @@ body {
 
 .writing {
 	margin-bottom: 4%;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 20px 10px 20px;
 	width: 48%; 
 }
 
@@ -86,7 +89,7 @@ body {
 
 .freelance {
 	margin-bottom: 4%;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 20px 10px 20px;
 	width: 48%; 
 }
 
@@ -100,7 +103,7 @@ body {
 
 .marketing {
 	margin-bottom: 4%;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 20px 10px 20px;
 	width: 48%; 
 }
 
@@ -134,7 +137,6 @@ body {
 	letter-spacing: 2px;
 	text-transform: uppercase; 
 	color: #662486;
-	padding: 20px 0 -50px 0;
 }
 
 h2 {
@@ -149,6 +151,7 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 15px;
 	color: #9d9d9c;
+	margin-bottom: 0;
 }
 
 h4 {
@@ -156,6 +159,7 @@ h4 {
 	font-size: 15px;
 	font-weight: 700;
 	color: #404040;
+	margin-top: 10px;
 }
 
 p {
@@ -182,10 +186,6 @@ a:hover {
 	border-bottom: 2px solid #662486;
 }
 
-ul {
-
-}
-
 li {
 	color: #662486;
 	letter-spacing: 2px;
@@ -202,7 +202,7 @@ li {
 }
 
 .sidebar {
-	padding: 45px;
+	padding: 0 35px 0 35px;
 	width: 36%;
 }
 
@@ -232,7 +232,7 @@ li {
 }
 
 .footer ul {
-	padding: 0;
+	padding: 0 0 10px 0;
 }
 
 .footer li {
@@ -246,6 +246,17 @@ li {
 .footer a:hover {
 	border-bottom: none;
 	-webkit-filter: saturate(0) invert(100%) brightness(200%);
+}
+
+.copyright {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #3c3c3b;	
+}
+
+.copyright a:hover {
+	-webkit-filter: none;
+	border-bottom: 2px solid #662486;
 }
 
 
